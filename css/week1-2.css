@@ -86,4 +86,5 @@ table {
     line-height: 1.5;
     text-align: center;
     overflow: hidden;
+    outline: 1px solid #000;
 }
