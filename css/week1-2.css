@@ -47,17 +47,17 @@ table {
 	border-spacing: 0;
 }
 
-
-*,*:before, *:after{
+*,
+*::after,
+*::before{
     box-sizing: border-box;
 }
-img{   
+img{
     display: block;
 }
 .container{
-    max-width: 640px;
+    width: 640px;
     margin: 0 auto;
-    font-size: 0px;
 }
 .content{
     display: flex;
@@ -71,18 +71,18 @@ img{
 .news-items{
     display: flex;
 }
-.news h2{
+.news-items h2{
     font-size: 20px;
     line-height: 1.2;
 }
-.news p{
+.news-items p{
     font-size: 16px;
     line-height: 1.5;
 }
 .footer{
-    padding: 48px 0;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    padding: 48px 0;
     outline: 1px solid #000;
 }
