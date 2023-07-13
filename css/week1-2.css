@@ -51,7 +51,7 @@ table {
 *,*:before, *:after{
     box-sizing: border-box;
 }
-.img{   
+img{   
     display: block;
 }
 .container{
