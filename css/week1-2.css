@@ -52,8 +52,7 @@ table {
     box-sizing: border-box;
 }
 .img{   
-    /* display: block; */
-    vertical-align: middle;
+    display: block;
 }
 .container{
     max-width: 640px;
