@@ -46,10 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 *,
-*::after,
-*::before{
+*::before,
+*::after{
     box-sizing: border-box;
 }
 img{
@@ -68,14 +67,14 @@ img{
 .mr-20{
     margin-right: 20px;
 }
-.news-items{
+.news-list{
     display: flex;
 }
-.news-items h2{
+.news-list h2{
     font-size: 20px;
     line-height: 1.2;
 }
-.news-items p{
+.news-list p{
     font-size: 16px;
     line-height: 1.5;
 }
